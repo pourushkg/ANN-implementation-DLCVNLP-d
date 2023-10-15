@@ -18,3 +18,14 @@ ANN-implementation-DLCVNLP-d
 ## To check back to the main 
 -> git checkout main 
 
+## To create any file 
+'''bash
+touch filename
+'''
+
+### To create a directory
+'''bash
+mkdir -p parentdir/directory
+'''
+
+
