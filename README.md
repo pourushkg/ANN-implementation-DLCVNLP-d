@@ -6,6 +6,7 @@ ANN-implementation-DLCVNLP-d
 1. conda env list 
 2. conda create -n perceptron python=3.7 
 3. conda activate perceptron 
+4. source activate perceptron ## if conda is not working 
 4. pip install -r requirements.txt 
 5. git add . 
 6. git commit -m "updated" 
