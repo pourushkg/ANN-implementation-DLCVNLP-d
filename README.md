@@ -20,10 +20,12 @@ ANN-implementation-DLCVNLP-d
 -> touch src/utils/callbacks.py
 
 ## To check different version of the code 
--> git checkout versioncode 
+-> git checkout -b branchname 
 
 ## To check back to the main 
 -> git checkout main 
+
+## to merge two branch 
 
 ## To create any file 
 '''bash
