@@ -26,7 +26,10 @@ ANN-implementation-DLCVNLP-d
 -> git checkout main 
 
 ## to merge two branch 
+-> git merge branch_name 
 
+## to remove any file 
+-> git rm -r path/to/file
 ## To create any file 
 '''bash
 touch filename
