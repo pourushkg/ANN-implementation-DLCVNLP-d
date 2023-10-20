@@ -1,5 +1,5 @@
 params:
-  epochs: 1
+  epochs: 5
   batch_size: 32
   num_classes: 10
   input_shape: [28, 28]
@@ -8,12 +8,14 @@ params:
   optimizer: SGD
   validation_data: 5000 
 
+
 artifacts:
   artifacts_dir: artifacts
   model_dir: model
   plots_dir: plots
   checkpoint_dir: checkpoints
   model_name: model.h5
+  
 
 logs:
   logs_dir: log_dir

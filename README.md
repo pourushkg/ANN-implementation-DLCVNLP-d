@@ -13,6 +13,12 @@ ANN-implementation-DLCVNLP-d
 7. git puch origin main 
 8. history 
 
+## To make directory 
+-> mkdir pouru
+
+## To make new file 
+-> touch src/utils/callbacks.py
+
 ## To check different version of the code 
 -> git checkout versioncode 
 
