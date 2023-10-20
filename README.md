@@ -30,6 +30,10 @@ ANN-implementation-DLCVNLP-d
 touch filename
 '''
 
+## To call tensorboard
+-> tensorboard --logdir=logs_dir/tensorboard_logs/
+
+
 ### To create a directory
 '''bash
 mkdir -p parentdir/directory
