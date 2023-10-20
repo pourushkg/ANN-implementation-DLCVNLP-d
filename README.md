@@ -30,6 +30,12 @@ ANN-implementation-DLCVNLP-d
 touch filename
 '''
 
+## to switch to new branch 
+-> git checkout -b branchname 
+
+## to merge the branch 
+-> git merge branchname 
+
 ## To call tensorboard
 -> tensorboard --logdir=logs_dir/tensorboard_logs/
 
