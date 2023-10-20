@@ -16,6 +16,7 @@ def training(config_path):
     NUM_CLASSES = config["params"]["num_classes"]
 
     model = create_model(LOSS_FUNCTION,OPTIMIZER,METRICS,NUM_CLASSES)
+    ## comment addded 
 
     EPOCHS=config["params"]["epochs"]
     VALIDATION = (x_valid,y_valid)
