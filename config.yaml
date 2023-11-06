@@ -1,5 +1,5 @@
 params:
-  epochs: 5
+  epochs: 1
   batch_size: 32
   num_classes: 10
   input_shape: [28, 28]
@@ -7,6 +7,7 @@ params:
   metrics: accuracy
   optimizer: SGD
   validation_data: 5000 
+  validation: (x_valid,y_valid)
   patience: 5
   restore_best_weights: True
   save_best_only: True
